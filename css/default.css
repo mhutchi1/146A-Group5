@@ -2,6 +2,7 @@
 .content{
     display: flex;
     flex-direction: column;
+	padding: 3%;
 }
 
 .header{
@@ -24,10 +25,11 @@
       text-transform: uppercase;
       font-family: 'Lato', sans-serif;
       font-weight: lighter;
-      color: black;
+      color: blue;
+	  text-decoration: underline;
 }
 
-.nav a:hover{
+.nav a:hover, .contact a:hover{
    background-color:antiquewhite;
 
 }
@@ -41,7 +43,7 @@ audio{
 }
 
 body{
-    background-color:slategrey
+    background-color:slategrey;
 }
 
 .page{
@@ -75,9 +77,15 @@ h3,h4{
     padding-bottom:0%;
 }
 
+.contact{
+	color: blue;
+	text-decoration: underline;
+}
+
+/* magic code that centers images*/
 img{
-    max-width: 300px;
-    margin-left: 37%;
+	display: block;
+	margin: 0 auto;
 }
 
 
@@ -107,9 +115,9 @@ img{
       display: flex;
       flex-direction: column;
     }
-    img{
-        margin: 2%;
-    }
+	h1{
+		line-height:1.0;/*fixes spacing if heading is too small for 1 line*/
+	}
 }
 
 /* rules for phones */
@@ -125,9 +133,9 @@ img{
       display: flex;
       flex-direction: column;
     }
-    img{
-        margin: 1%;
-    }
+	h1{
+		line-height:1.0;/*fixes spacing if heading is too small for 1 line*/
+	}
     
 
 }
