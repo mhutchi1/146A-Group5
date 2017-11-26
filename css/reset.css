@@ -6,9 +6,3 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
    vertical-align: baseline;
    border: 0;
 }
-
-.content{
-    display: flex;
-    flex-direction: column;
-}
-
