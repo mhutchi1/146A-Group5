@@ -80,10 +80,7 @@ img{
     margin-left: 37%;
 }
 
-/* rules for desktops */
-@media only screen and (min-width:800px){
-    .page{
-        max-width:80%;
+
 
 @media only screen and (min-width:800px){
     .page{
